@@ -1,0 +1,6 @@
+provider = "${AI_PROVIDER}"
+api_key = "${AI_API_KEY}"
+channels = ["telegram"] # change to "discord" or "gateway" if needed
+
+[channels.telegram]
+bot_token = "${TELEGRAM_BOT_TOKEN}"
